@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Miniflow.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Miniflow.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Miniflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="133">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linear_Net.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linear_Net.py">
+      <file leaf-file-name="Sigmoid_Net.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sigmoid_Net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,9 @@
         <option value="$PROJECT_DIR$/Minflow.py" />
         <option value="$PROJECT_DIR$/NeuralNet.py" />
         <option value="$PROJECT_DIR$/Addition_Net.py" />
-        <option value="$PROJECT_DIR$/Miniflow.py" />
         <option value="$PROJECT_DIR$/Linear_Net.py" />
+        <option value="$PROJECT_DIR$/Sigmoid_Net.py" />
+        <option value="$PROJECT_DIR$/Miniflow.py" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="RunManager" selected="Python.Linear_Net">
+  <component name="RunManager" selected="Python.Sigmoid_Net">
     <configuration default="false" name="NeuralNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,6 +125,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Miniflow" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear_Net.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sigmoid_Net" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Miniflow" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sigmoid_Net.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -262,14 +280,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.NeuralNet" />
       <item index="1" class="java.lang.String" itemvalue="Python.Linear_Net" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Sigmoid_Net" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Linear_Net" />
-        <item index="1" class="java.lang.String" itemvalue="Python.NeuralNet" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Sigmoid_Net" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Linear_Net" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NeuralNet" />
       </list>
     </recent_temporary>
   </component>
@@ -325,18 +345,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Miniflow.py">
+    <entry file="file://$PROJECT_DIR$/Linear_Net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="384">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Net.py">
+    <entry file="file://$PROJECT_DIR$/Sigmoid_Net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miniflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>

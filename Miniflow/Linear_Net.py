@@ -6,9 +6,6 @@ inputs, weights, bias = Input(), Input(), Input()
 
 f1 = Linear(inputs, weights, bias)
 
-X_ = np.array([[-1., -2.], [-1, -2]])
-W_ = np.array([[2., -3], [2., -3]])
-b_ = np.array([-3., -5])
 
 feed_dict = {inputs: [1,2,3],
              weights: [2,2,2],
@@ -19,6 +16,11 @@ linear_ouput= forward_pass(f1, sorted_nodes)
 
 
 print("Simple Linear Network Output = {}".format(linear_ouput))
+
+X_ = np.array([[-1., -2.], [-1, -2]])
+W_ = np.array([[2., -3], [2., -3]])
+b_ = np.array([-3., -5])
+
 
 X, W, b = Input(), Input(), Input()
 

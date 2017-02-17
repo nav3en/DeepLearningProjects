@@ -48,7 +48,13 @@ class Linear(Node):
         bias = self.inbound_nodes[2].value
 
         self.value = np.dot(X,W) + bias
+class Sigmoid(Node):
+    def __init__(self, input_node):
+        Node.__init__(self, [input_node])
 
+    def forward(self):
+        x = self.inbound_nodes[0].value
+        self.value = 1./(1. + np.exp(-x))
 
 def topological_sort(feed_dict):
     """
