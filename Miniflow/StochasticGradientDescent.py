@@ -71,7 +71,7 @@ for i in range(epochs):
         y.value = y_batch
 
         # Step 2
-        forward_and_backward(graph)
+        forward_and_backward_pass(graph)
 
         # Step 3
         sgd_update(trainables)
